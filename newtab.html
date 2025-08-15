@@ -87,7 +87,7 @@
             left: 0;
             width: 100vw;
             height: 100vh;
-            background: #20252c center/cover no-repeat fixed;
+            background: #000000 center/cover no-repeat fixed;
             z-index: -1;
             transition: var(--transition);
             filter: blur(0) brightness(1);
@@ -1204,7 +1204,7 @@
                             之所以制作这个起始页，有一部分是受到了 <a href="https://intro.limestart.cn/">青柠起始页</a> 的影响。（青柠起始页真的非常漂亮，也有很多功能，在此强烈推荐大家使用！）
                             <br>
                             <br>
-                            最开始一直是使用浏览器默认的起始页，因为当时没有电脑，加上对浏览器的使用频率也不高，并且还不知道有自制起始页这个东西，所以顶多把默认界面上杂七杂八的组件关掉，也没觉有得什么。
+                            最开始一直是使用浏览器默认的起始页，因为当时没有电脑，加上对浏览器的使用频率也不高，并且还不知道有自制起始页这个东西，所以顶多把默认界面上杂七杂八的组件关掉，也没觉得有什么。
                             <br>
                             后来因为使用了 <a href="https://host.retiehe.com/">热铁盒网页托管</a> ，接触到了青柠起始页，知道起始页原来还可以自制！
                             <br>
@@ -1300,7 +1300,7 @@
             } catch (error) {
                 console.error("API 壁纸加载失败，使用本地壁纸:", error);
                 // 向用户显示提示
-                showToast("网络异常，已切换至本地壁纸");
+                alert("网络异常，已切换至本地壁纸");
             }
 
             // 使用本地背景
